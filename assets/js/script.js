@@ -11,7 +11,7 @@ function myFunction() {
     var serverName = document.getElementById("serverName").value;
     var additionalComments = document.getElementById("additionalComments").value;
     // Returns successful data submission message when the entered information is stored in database.
-    var dataString = 'name1=' + name + '&text1=' + text + '&foodOrdered1=' + foodOrdered + '&foodquality1=' + foodquality + '&orderaccuracy1=' + orderaccuracy + '&valueformoney1=' + valueformoney + '&speedofservice1=' + speedofservice + '&overallexperience1=' + overallexperience + '&serverName1=' + serverName + '&additionalComments' + additionalComments +; 
+    var dataString = 'name1=' + name + '&text1=' + text + '&foodOrdered1=' + foodOrdered + '&foodquality1=' + foodquality + '&orderaccuracy1=' + orderaccuracy + '&valueformoney1=' + valueformoney + '&speedofservice1=' + speedofservice + '&overallexperience1=' + overallexperience + '&serverName1=' + serverName + '&additionalComments1=' + additionalComments +; 
     if (name == '' || text == '' || foodOrdered == '' || foodquality == '' || orderaccuracy == '' || valueformoney == '' || speedofservice == '' || overallexperience == '' || serverName == '' || additionalComments == '' ||) {
     alert("Please Fill All Fields");
     } else {
